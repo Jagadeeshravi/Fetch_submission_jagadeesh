@@ -80,7 +80,7 @@ class DataProcessor:
         # Save the cleaned and merged data to a CSV file
         self.merged_data.to_csv(filename, index=False)
 # Example usage:
-processor = DataProcessor('D:\jagdish\offer_retailer.csv', 'D:\jagdish\categories.csv', 'D:\jagdish\Brand_category.csv')
+processor = DataProcessor('D:\jagadeesh\offer_retailer.csv', 'D:\jagadeesh\categories.csv', 'D:\jagadeesh\Brand_category.csv')
 #processor.handle_missing_values()
 processor.clean_text('OFFER')
 processor.clean_text('RETAILER')
